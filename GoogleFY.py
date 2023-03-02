@@ -1,3 +1,6 @@
+# (©️) Copyright 2022-2023
+# meta developer: @YumaMods
+
 from .. import loader, utils
 from telethon.tl.types import Message  # type: ignore
 
