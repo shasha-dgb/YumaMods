@@ -20,5 +20,5 @@ class GoogleForYouMod(loader.Module):
     async def googlecmd(self, message: Message):
         args = utils.get_args_raw(message)
         g = args.replace(" ", "%20")
-        google = f"https://google.com/{g}"
+        google = f"https://google.com/search?q={g}"
         await utils.answer(message, self.strings("google") + google)
