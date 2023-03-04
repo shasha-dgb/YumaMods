@@ -1,7 +1,5 @@
 # (©️) Copyright 2022-2023
 # meta developer: @YumaMods
-# description: Auto You Tube For You!
-
 
 from .. import loader, utils
 from telethon.tl.types import Message  # type: ignore
@@ -19,6 +17,6 @@ class GoogleForYouMod(loader.Module):
 
     async def youtubecmd(self, message: Message):
         args = utils.get_args_raw(message)
-        y = args.replace(" ", "+")
+        y = args.replace(" ", " ")
         youtube = f"https://m.youtube.com/results?sp=mAEA&search_query={y}"
         await utils.answer(message, self.strings("youtube") + youtube)
