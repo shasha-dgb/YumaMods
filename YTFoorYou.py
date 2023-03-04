@@ -1,4 +1,4 @@
- (©️) Copyright 2022-2023
+# (©️) Copyright 2022-2023
 # meta developer: @YumaMods
 # description: Auto You Tube For You!
 
